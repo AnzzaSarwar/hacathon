@@ -5,13 +5,13 @@ import { createClient } from "next-sanity";
 import Image from "next/image";
 import Link from "next/link"; // Next.js Link component for routing
 
-// Sanity client initialization
+// Sanity client initialization using NEXT_PUBLIC_* for client-side accessible variables
 const client = createClient({
-  projectId: "9enabbee",
-  dataset: "production",
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,  // Public Sanity project ID
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,      // Public Sanity dataset
   apiVersion: "2025-01-13",
   useCdn: true,
-  token: process.env.SANITY_API_TOKEN,
+  token: process.env.SANITY_API_TOKEN,                  // Private API token for server-side
 });
 
 interface Product {
