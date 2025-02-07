@@ -11,6 +11,7 @@ const client = createClient({
   dataset: "production",
   apiVersion: "2025-01-13",
   useCdn: true,
+  token: process.env.SANITY_API_TOKEN,
 });
 
 interface Product {

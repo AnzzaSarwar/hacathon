@@ -30,7 +30,7 @@ function Header() {
       <nav
         className={`${
           isMobileMenuOpen ? "block" : "hidden"
-        } md:flex md:space-x-10 font-semibold text-xl text-blue-950 absolute md:static left-0 top-full md:top-auto w-full md:w-auto bg-white md:bg-transparent md:flex-row flex-col items-center md:space-y-0 space-y-4 p-4 md:p-0 z-10`}
+        } md:flex md:space-x-10 font-semibold text-xl text-blue-950 absolute md:static left-0 top-full md:top-auto w-full md:w-auto bg-white md:bg-transparent md:flex-row flex-col items-center md:space-y-0  p-4 md:p-0 z-10`}
       >
         <Link href="/" className="hover:text-blue-700 mb-2 md:mb-0 md:ml-5 sm:ml-3">
           Home
@@ -48,7 +48,7 @@ function Header() {
           Contact
         </Link>
         <Link href="/pages" className="hover:text-blue-700 mb-2 md:mb-0 md:ml-5 sm:ml-3">
-          Pages
+          Teams
         </Link>
       </nav>
 
