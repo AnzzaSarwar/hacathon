@@ -20,7 +20,7 @@ interface Product {
   price: number;
   description: string;
   discountPercentage: number;
-  imageUrl: string; 
+  imageUrl: string;
   tags: string[];
 }
 
@@ -33,16 +33,16 @@ const ProductCards: React.FC = () => {
   const fetchProducts = async () => {
     try {
       const query = `
-      *[_type == "product"] {
-        _id,
-        title,
-        price,
-        description,
-        discountPercentage,
-        "imageUrl": productImage.asset->url, 
-        tags
-      }
-    `;
+        *[_type == "product"] {
+          _id,
+          title,
+          price,
+          description,
+          discountPercentage,
+          "imageUrl": productImage.asset->url,
+          tags
+        }
+      `;
       const data = await client.fetch(query);
       setProducts(data);
       console.log("Fetched products:", data);
@@ -55,10 +55,13 @@ const ProductCards: React.FC = () => {
 
   // Adding products to cart
   const addToCart = (product: Product) => {
-    setCart((prevCart) => [...prevCart, product]);
+    const newCart = [...cart, product];
+    setCart(newCart);
 
-    // Save cart to localStorage
-    localStorage.setItem("cart", JSON.stringify([...cart, product]));
+    // Save cart to localStorage (check for browser before using localStorage)
+    if (typeof window !== "undefined") {
+      localStorage.setItem("cart", JSON.stringify(newCart));
+    }
 
     // Show alert to user
     alert(`${product.title} has been added to your cart!`);
@@ -74,9 +77,11 @@ const ProductCards: React.FC = () => {
     fetchProducts();
 
     // Load cart data from localStorage if exists
-    const savedCart = localStorage.getItem("cart");
-    if (savedCart) {
-      setCart(JSON.parse(savedCart));
+    if (typeof window !== "undefined") {
+      const savedCart = localStorage.getItem("cart");
+      if (savedCart) {
+        setCart(JSON.parse(savedCart));
+      }
     }
   }, []);
 
@@ -91,7 +96,7 @@ const ProductCards: React.FC = () => {
           {products.map((product) => (
             <div key={product._id} className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
               <Image
-                src={product.imageUrl} // Fallback image if imageUrl is missing
+                src={product.imageUrl}
                 alt={product.title}
                 width={300}
                 height={300}
@@ -142,7 +147,7 @@ const ProductCards: React.FC = () => {
                   <p className="text-gray-800 text-sm font-semibold">${item.price ? item.price.toFixed(2) : "N/A"}</p>
                 </div>
                 <Image
-                  src={item.imageUrl }
+                  src={item.imageUrl}
                   alt={item.title}
                   width={50}
                   height={50}
