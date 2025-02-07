@@ -1,0 +1,2 @@
+
+9f3b560b91b5328cd4c81fc2f3f3ebd7aaa0728a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/next-sanity","integrity":null,"time":1738614856172,"size":"0","metadata":{"time":1738614856172,"url":"http://registry.npmjs.org/next-sanity","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:34:19 GMT","location":"https://registry.npmjs.org/next-sanity","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

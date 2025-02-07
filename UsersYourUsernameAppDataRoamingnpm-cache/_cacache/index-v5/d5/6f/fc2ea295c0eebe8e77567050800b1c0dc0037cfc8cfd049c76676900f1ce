@@ -1,0 +1,2 @@
+
+1677f819268bb51eec273c839664810ba42c1592	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/xstate","integrity":null,"time":1738614910762,"size":"0","metadata":{"time":1738614910762,"url":"http://registry.npmjs.org/xstate","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:35:15 GMT","location":"https://registry.npmjs.org/xstate","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

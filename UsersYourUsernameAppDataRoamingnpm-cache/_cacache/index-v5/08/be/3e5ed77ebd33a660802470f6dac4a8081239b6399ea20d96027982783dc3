@@ -1,0 +1,2 @@
+
+b8d799a288c9333d3c14f73accf13bef81fad825	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@sveltejs%2fvite-plugin-svelte","integrity":null,"time":1738614891245,"size":"0","metadata":{"time":1738614891245,"url":"http://registry.npmjs.org/@sveltejs%2fvite-plugin-svelte","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:34:55 GMT","location":"https://registry.npmjs.org/@sveltejs%2Fvite-plugin-svelte","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

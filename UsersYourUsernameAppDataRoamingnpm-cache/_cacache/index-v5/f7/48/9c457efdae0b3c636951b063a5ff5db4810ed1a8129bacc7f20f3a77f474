@@ -1,0 +1,2 @@
+
+1269d3185c1500acbbbf6eeedb695a32af4fc73f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@sanity/mutate/-/mutate-0.11.0-canary.4.tgz","integrity":null,"time":1738614913460,"size":"0","metadata":{"time":1738614913460,"url":"http://registry.npmjs.org/@sanity/mutate/-/mutate-0.11.0-canary.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:35:18 GMT","location":"https://registry.npmjs.org/@sanity/mutate/-/mutate-0.11.0-canary.4.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

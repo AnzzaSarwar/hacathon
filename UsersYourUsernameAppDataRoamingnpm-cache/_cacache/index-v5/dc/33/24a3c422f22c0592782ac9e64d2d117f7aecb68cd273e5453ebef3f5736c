@@ -1,0 +1,2 @@
+
+b9a4ce806f1dc00f3363399d3c21cd2c5c7f86e3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@remix-run%2freact","integrity":null,"time":1738614881270,"size":"0","metadata":{"time":1738614881270,"url":"http://registry.npmjs.org/@remix-run%2freact","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:34:45 GMT","location":"https://registry.npmjs.org/@remix-run%2Freact","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

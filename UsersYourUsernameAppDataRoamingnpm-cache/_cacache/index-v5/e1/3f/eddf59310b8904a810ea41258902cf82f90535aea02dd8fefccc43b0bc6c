@@ -1,0 +1,2 @@
+
+82ee0d4c69dc6456cae8dcd0dbf6ff9bbeac06da	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@sveltejs%2fkit","integrity":null,"time":1738614889860,"size":"0","metadata":{"time":1738614889859,"url":"http://registry.npmjs.org/@sveltejs%2fkit","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:34:54 GMT","location":"https://registry.npmjs.org/@sveltejs%2Fkit","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

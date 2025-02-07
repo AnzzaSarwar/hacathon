@@ -1,0 +1,2 @@
+
+497c156d31925ba41cc92e3cc88e6e3b47a6eac5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@sanity%2fvisual-editing","integrity":null,"time":1738614876355,"size":"0","metadata":{"time":1738614876355,"url":"http://registry.npmjs.org/@sanity%2fvisual-editing","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:34:40 GMT","location":"https://registry.npmjs.org/@sanity%2Fvisual-editing","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

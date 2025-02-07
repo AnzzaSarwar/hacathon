@@ -1,0 +1,2 @@
+
+51189dad05efac50677e277bf6bcee1a4702cb20	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@sanity%2fui","integrity":null,"time":1738614863179,"size":"0","metadata":{"time":1738614863179,"url":"http://registry.npmjs.org/@sanity%2fui","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:34:27 GMT","location":"https://registry.npmjs.org/@sanity%2Fui","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+a302e697702d22cf22370fb422f5847ad7869637	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/vite","integrity":null,"time":1738614893429,"size":"0","metadata":{"time":1738614893429,"url":"http://registry.npmjs.org/vite","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:34:58 GMT","location":"https://registry.npmjs.org/vite","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+542e155eea41398a64bff30e132cb84dee1a5058	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/create-sanity","integrity":null,"time":1738608184396,"size":"0","metadata":{"time":1738608184395,"url":"http://registry.npmjs.org/create-sanity","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 18:43:09 GMT","location":"https://registry.npmjs.org/create-sanity","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

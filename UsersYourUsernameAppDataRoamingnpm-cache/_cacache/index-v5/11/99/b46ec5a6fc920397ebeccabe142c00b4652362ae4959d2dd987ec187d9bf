@@ -1,0 +1,2 @@
+
+744d8742d18ac5b31f663fd80ef27851b1e47071	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/react-is","integrity":null,"time":1738614866379,"size":"0","metadata":{"time":1738614866378,"url":"http://registry.npmjs.org/react-is","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:34:30 GMT","location":"https://registry.npmjs.org/react-is","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

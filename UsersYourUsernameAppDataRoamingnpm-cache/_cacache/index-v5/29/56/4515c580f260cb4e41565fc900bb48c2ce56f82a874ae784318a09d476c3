@@ -1,0 +1,2 @@
+
+fa98949a5ead6eb328c5defb5ae2b243aad53e2a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/sass-embedded","integrity":null,"time":1738614903627,"size":"0","metadata":{"time":1738614903627,"url":"http://registry.npmjs.org/sass-embedded","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 03 Feb 2025 20:35:08 GMT","location":"https://registry.npmjs.org/sass-embedded","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}
