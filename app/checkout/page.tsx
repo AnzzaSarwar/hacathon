@@ -24,7 +24,7 @@ export default function CheckoutPage() {
     email: "",
   });
 
-  const [formErrors, setFormErrors] = useState({
+  const [, setFormErrors] = useState({
     firstName: false,
     lastName: false,
     city: false,
